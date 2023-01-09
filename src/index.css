@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Mingzat&display=swap');
+
+body {
+  margin: 0px !important;
+  background-color: #ffffff;
+  font-family: Mingzat, sf-pro-display, roboto, inter;
+
+}
+
+.Header{
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  max-width: 1536px;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4);
+  backdrop-filter: blur(5px);
+  box-sizing: border-box;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 99%;
+  color:#ffffff;
+}
+
+.cont{
+  display: flex;
+  margin-left:auto;
+}
+
+.space{
+  margin-right: 60px;
+}
+
+.nav-explore{
+  margin-right: 35px;
+  letter-spacing: 1.25px;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.nav--blog{
+  font-size: 12px;
+  letter-spacing: 1.25px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.button--sign{
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  backdrop-filter: blur(5px);
+  padding: 0px 20px;
+  height: 48px;
+  border-radius: 20px;
+  letter-spacing: 1.25px;
+  line-height: normal;
+  cursor: pointer;
+  display: inline-grid;
+  justify-content: center;
+  align-items: center;
+  font-family: sf-pro-display, roboto, tahoma;
+  font-size: 14px;
+  font-weight: 800;
+  border-style: none;
+}
+
+.button--sign:hover{
+  background-color: transparent;
+}
+
+.button--event{
+  margin-left: 50px;
+  background-color: #00237B;
+  height: 48px;
+  font-weight: 800;
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+  align-items: center;
+  display: inline-grid;
+  justify-content: center;
+  padding: 0px 20px;
+  border-radius: 20px;
+  border-style: none;
+  font-family: sf-pro-display, roboto, tahoma;
+  letter-spacing: 1.25px;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.button--event:hover{
+  background-color: #556ca7;
+}
+
+.find{
+  color: white;
+  
+  background-position: center;
+  background-size: cover;
+  height: 77vh;
+  padding-top: 75px;
+}
+
+.ops{
+  padding-top: 96px;
+}
+
+.featured-bar{
+  margin-left: 100px;
+  margin-right: 110px;
+}
+
+.featured-event{
+  font-weight: 700;
+  font-size: 20px;
+  box-sizing: border-box;
+  text-align: start;
+}
+
+.owambe{
+  margin-top: -13px;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 64px;
+  box-sizing: border-box;
+  text-align: start;
+}
+
+.address{
+  margin-top: -16px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  box-sizing: border-box;
+  text-align: start;
+}
+
+.register-now{
+  margin-top: 18px;
+  background-color: #00237B;
+  height: 48px;
+  font-weight: 800;
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+  align-items: center;
+  display: inline-grid;
+  justify-content: center;
+  padding: 0px 20px;
+  border-radius: 20px;
+  border-style: none;
+  font-family: sf-pro-display, roboto, tahoma;
+  letter-spacing: 1.25px;
+  line-height: normal;
+  cursor: pointer;
+}
+
+
+/*Find Artists....*/
+
+.find-box{
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  background-color: rgb(236 241 250);
+  font-size: 16px;
+  margin-top: 110px;
+  margin-left: 100px;
+  margin-right: 100px;
+  box-sizing: border-box;
+  line-height: 24px;
+  border-radius: 20px;
+}
+
+.inside-box{
+  background-color: #ffffffb3;
+  border-radius: 35px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.search--input{
+  display: flex;
+  align-items: center;
+}
+
+i {
+  position: absolute;
+  left: 145px;
+  font-size: 10px;
+  color: black;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input--text{
+  line-height: 24px;
+  box-sizing: border-box;
+  font-family: sf-pro-display, roboto, tahoma;
+  font-size: 12px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  writing-mode: horizontal-tb;
+  width: 433px;
+  color: rgb(0,0,0);
+  border-style: none;
+  border-radius: 5px;
+  outline: none;
+  background-color: rgb(232, 237, 247);
+}
+
+.ticket{
+  align-items: center;
+  box-sizing: border-box;
+  color: rgb(0, 35, 123);
+  display: flex;
+  font-family: Mingzat;
+  font-size: 16px;
+  height: 68px;
+  justify-content: space-between;
+  line-height: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 12px;
+  outline: none;
+  border-style: none;
+  text-align: center;
+  width: 200px;
+}
+
+
+.date{
+  display: flex;
+  align-items: center;
+}
+
+.date--input{
+  display: flex;
+  align-items: center;
+  font-family: Mangzin;
+  font-size: 16px;
+  justify-content: space-between;
+  line-height: 24px;
+  padding-left: 16px;
+  padding-right: 16px;
+  height: 68px;
+  color: rgba(0,35,123, 0.7);
+  outline: none;
+  border-style: none;
+  width: 200px;
+}
+
+.explore--button{
+  height: 68px;
+  background-color: rgb(0, 35, 123);
+  display: grid;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-family: Mingzit;
+  font-size: 14px;
+  justify-content: center;
+  letter-spacing: 1.25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  width: 201px;
+  outline: none;
+  border-style: none;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
