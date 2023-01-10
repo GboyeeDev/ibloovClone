@@ -1,8 +1,5 @@
 import search from "../images/search.png"
 
-
-
-
 const Find = (props) => {
 
     const images = 
