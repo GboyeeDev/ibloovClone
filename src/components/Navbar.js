@@ -1,7 +1,7 @@
 function Navbar() {
     return(
         <div className="Header">
-            <div className="container
+            <div className="container">
                 <h1 className="space">ibloov</h1>
                 <h4 className="nav-explore">Explore</h4>
                 <h4 className="nav--blog">Blog</h4>
